@@ -134,8 +134,11 @@ img {
   align-items: center;
 }
 
+.nav_logo img {
+  width: 36px;
+}
+
 .nav_logo {
-  width: 32px;
   font-size: var(--h2-font-size);
   font-weight: var(--font-semi-bold);
   color: var(--first-color);
@@ -228,10 +231,10 @@ img {
 .home_title {
   font-size: var(--biggest-font-size);
   display: flex;
-  column-gap: 4px;
+  column-gap: 2px;
   color: var(--first-color);
   position: absolute;
-  top: -32px;
+  top: 24px;
   justify-self: center;
 }
 
@@ -357,14 +360,226 @@ img {
 }
 
 /*=============== FAVORITE ===============*/
+.favorite_container {
+  padding-top: 32px;
+}
+
+.favorite_article {
+  width: 220px;
+  display: grid;
+  justify-items: center;
+  filter: blur(8px);
+  scale: 0.6;
+  transition: filter 0.3s, scale 0.3s;
+  /* gap: 10px; */
+}
+
+.favorite_img {
+  width: 220px;
+  margin-bottom: 24px;
+}
+
+.favorite_model {
+  background: var(--gradient-color);
+  padding: 8px 24px;
+  border-radius: 64px;
+  color: var(--white-color);
+}
 
 /* Swiper class */
+.swiper-slide-active,
+.swiper-slide-duplicate-active {
+  filter: blur(0);
+  scale: 1;
+}
 
 /*=============== MODEL ===============*/
+.model_container {
+  padding-top: 32px;
+  row-gap: 40px;
+}
+
+.model_content {
+  position: relative;
+  justify-self: center;
+}
+
+.model_img {
+  width: 280px;
+}
+
+.model_tooltip {
+  width: 60px;
+}
+
+.model_tooltip-text {
+  background: var(--gradient-color);
+  padding: 4px 12px;
+  border-radius: 64px;
+  color: var(--white-color);
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+  position: absolute;
+  transform: translate(60px, -40px);
+  white-space: nowrap;
+}
+
+.model_tooltip-1,
+.model_tooltip-2 {
+  transform: scaleX(-1);
+}
+
+.model_tooltip-1 .model_tooltip-text,
+.model_tooltip-2 .model_tooltip-text {
+  transform: translate(60px, -40px) scaleX(-1);
+}
+
+.model_tooltip {
+  position: absolute;
+}
+
+.model_tooltip-1 {
+  top: 88px;
+  left: 80px;
+}
+
+.model_tooltip-2 {
+  top: 16px;
+  right: 24px;
+}
+
+.model_tooltip-3 {
+  bottom: 6.4px;
+  left: 86px;
+}
+
+.model_tooltip-4 {
+  bottom: 112px;
+  right: 80px;
+}
+
+.model_button {
+  justify-self: center;
+}
 
 /*=============== SPONSOR ===============*/
+.sponsor_img {
+  width: 100px;
+  transition: transform 0.4s;
+}
+
+.sponsor_img:hover {
+  transform: scale(1.1);
+}
+
+.sponsor_container {
+  padding-block: 8px 72px;
+  grid-template-columns: repeat(2, max-content);
+  justify-content: center;
+  align-items: center;
+  gap: 80px 64px;
+}
 
 /*=============== FOOTER ===============*/
+.footer {
+  padding-block: 32px;
+  overflow: hidden;
+}
+
+.footer_container {
+  row-gap: 64px;
+}
+
+.footer_logo {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--first-color);
+}
+
+.footer_logo img {
+  width: 150px;
+}
+
+.footer_data {
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 64px;
+}
+
+.footer_title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 16px;
+}
+
+.footer_links {
+  display: grid;
+  row-gap: 12px;
+}
+
+.footer_link {
+  color: var(--text-color);
+  transition: color 0.4s;
+}
+
+.footer_link:hover {
+  color: var(--first-color);
+}
+
+.footer_group {
+  grid-column: 1/3;
+}
+
+.footer_form {
+  display: grid;
+  row-gap: 16px;
+  margin-bottom: 32px;
+}
+
+.footer_input,
+.footer_button {
+  font-size: var(--normal-font-size);
+  font-family: var(--body-font);
+  border: none;
+  outline: none;
+}
+
+.footer_input {
+  width: 100%;
+  padding: 18px 20px;
+  border-radius: 64px;
+  background-color: var(--container-color);
+  color: var(--text-color);
+}
+
+.footer_input::placeholder {
+  color: var(--text-color);
+}
+
+.footer_button {
+  cursor: pointer;
+}
+
+.footer_social {
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+}
+
+.footer_social-link {
+  color: var(--white-color);
+  font-size: 20px;
+  transition: color 0.4s;
+}
+
+.footer_social-link:hover {
+  color: var(--first-color);
+}
+
+.footer_copy {
+  display: block;
+  margin-top: 80px;
+  font-size: var(--small-font-size);
+  text-align: center;
+}
 
 /*=============== SCROLL BAR ===============*/
 
