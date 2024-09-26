@@ -228,7 +228,7 @@ img {
 .home_title {
   font-size: var(--biggest-font-size);
   display: flex;
-  /* column-gap: 4px; */
+  column-gap: 4px;
   color: var(--first-color);
   position: absolute;
   top: -32px;
