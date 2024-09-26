@@ -1,12 +1,18 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
+/*=============== Beats By Dre Font ===============*/
+@font-face {
+  font-family: beatsFont;
+  src: url(assets/font/Abeatbykai.ttf);
+}
+
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 56px;
 
   /*========== Colors ==========*/
-  --first-color: #b22222;
+  --first-color: #e01f3d;
   --gradient-color: linear-gradient(90deg, #4a4745 0%, #151414 100%);
   --white-color: #ffffff;
   --text-color: #9d9895;
@@ -129,7 +135,7 @@ img {
 }
 
 .nav_logo {
-  width: 24px;
+  width: 32px;
   font-size: var(--h2-font-size);
   font-weight: var(--font-semi-bold);
   color: var(--first-color);
@@ -227,6 +233,10 @@ img {
   position: absolute;
   top: -32px;
   justify-self: center;
+}
+
+.home_title span {
+  font-family: beatsFont;
 }
 
 .home_title span:nth-child(2),
