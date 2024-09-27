@@ -447,18 +447,13 @@ img {
 }
 
 .model_tooltip-2 {
-  top: 16px;
+  top: -1px;
   right: 24px;
 }
 
-.model_tooltip-3 {
-  bottom: 6.4px;
-  left: 86px;
-}
-
 .model_tooltip-4 {
-  bottom: 112px;
-  right: 80px;
+  bottom: 88px;
+  right: 56px;
 }
 
 .model_button {
@@ -668,15 +663,11 @@ img {
     left: 64px;
   }
   .model_tooltip-2 {
-    top: 0;
-  }
-  .model_tooltip-3 {
-    bottom: 16px;
-    left: 58px;
+    top: -10px;
   }
   .model_tooltip-4 {
-    right: 64px;
-    bottom: 96px;
+    right: 16px;
+    bottom: 64px;
   }
 
   .sponsor_container {
@@ -840,14 +831,14 @@ img {
   .model_tooltip-2 .model_tooltip-text {
     transform: translate(82px, -56px);
   }
-  .model_tooltip-3 {
+  /* .model_tooltip-3 {
     transform: scaleX(-1);
     left: 64px;
     bottom: 48px;
-  }
-  .model_tooltip-3 .model_tooltip-text {
+  } */
+  /* .model_tooltip-3 .model_tooltip-text {
     transform: translate(82px, -56px) scaleX(-1);
-  }
+  } */
   .model_tooltip-4 {
     bottom: 160px;
     right: 112px;
