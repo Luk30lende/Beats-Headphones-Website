@@ -1,6 +1,6 @@
 # Beats Audio Headphones Website
 
-This is a custom-designed website for a Beats Audio Headphones brand, built using HTML, CSS and JavaScript. The website showcases a model of Beats Studio 3 headphones, with engaging animations, responsive layouts, and interactive elements to enhance user experience.
+This is a custom-designed website for the Beats Audio Headphones brand, built using HTML, CSS, and JavaScript. The website showcases a Beats Studio 3 headphones model, with engaging animations, responsive layouts, and interactive elements to enhance user experience.
 
 ## Features
 
@@ -8,16 +8,16 @@ This is a custom-designed website for a Beats Audio Headphones brand, built usin
 - **Custom Font:** Integrated a custom font to complement the brand's identity.
 - **Scroll Reveal Animation:** Smooth, interactive animations using the _ScrollReveal_ JavaScript library, triggered as users scroll through the website.
 - **Swipper.js:** A mobile -friendly, touch-enabled slider implemented using _Swiper.js_, allowing users to navigate between product categories or images.
-- **Responsive Design:** The website adapts seamlessly across various devices and screen sizes, ensuring a great user experiece on both mobile and desktop.
+- **Responsive Design:** The website adapts seamlessly across various devices and screen sizes, ensuring a great user experience on both mobile and desktop.
 
 ## Technologies Used
 
-- **HTML5:** For structuring content and semantic markyp.
+- **HTML5:** For structuring content and semantic markup.
 - **CSS3:** For styling, layout control, and responsiveness, including media queries.
 - **JavaScript:** For handling interactivity and dynamic content.
 - **Swiper.js:** For creating interactive and swipeable image slides.
 - **ScrollReveal.js:** For implementing smooth scrolling aminations.
-- **Google Fonts/ Custom Fonts:** A custom and Google font is used to enhance the visual appeal and match the brand's identity.
+- **Google Fonts/ Custom Fonts:** A custom and Google font enhances the visual appeal and matches the brand's identity.
 
 ## Screenshots
 
