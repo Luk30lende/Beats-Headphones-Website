@@ -36,3 +36,7 @@ Feel free to submit issues or pull requests if you would like to contribute to t
 ## License
 
 This project is licensed under the MIT License.
+
+### Author
+
+Designed and developed by [Luke Olende](https://github.com/Luk30lende). Feel free to follow me on GitHub for more projects!
