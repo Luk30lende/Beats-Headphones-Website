@@ -2,6 +2,12 @@
 
 This is a custom-designed website for the Beats Audio Headphones brand, built using HTML, CSS, and JavaScript. The website showcases a Beats Studio 3 headphones model, with engaging animations, responsive layouts, and interactive elements to enhance user experience.
 
+## Screenshots
+
+![Alt Text](/assets/imgs/beats%20home%20page.png)
+![Alt Text](/assets/imgs/beats%20models.png)
+![Alt Text](/assets/imgs/beats%20footer.png)
+
 ## Features
 
 - **Custom Design:** Unique layout and styling created using HTML and CSS.
@@ -18,12 +24,6 @@ This is a custom-designed website for the Beats Audio Headphones brand, built us
 - **Swiper.js:** For creating interactive and swipeable image slides.
 - **ScrollReveal.js:** For implementing smooth scrolling aminations.
 - **Google Fonts/ Custom Fonts:** A custom and Google font enhances the visual appeal and matches the brand's identity.
-
-## Screenshots
-
-![Alt Text](/assets/imgs/beats%20home%20page.png)
-![Alt Text](/assets/imgs/beats%20models.png)
-![Alt Text](/assets/imgs/beats%20footer.png)
 
 ## Live Demo
 
